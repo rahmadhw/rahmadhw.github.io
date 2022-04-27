@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Link tree</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="splash">
+        <div class="center">
+            <img src="asset/gambar/rahmad.jpg" alt="Loaded Gambar">
+            <h1>Welcome To My link Tree Personal</h1>
+            <button type="button" name = "button" class="start">Silakan Melanjutkan</button>
+        </div>
+    </div>
+
+    <header>
+        <div class="profile-container">
+            <img src="asset/gambar/rahmad.jpg" alt="Gambar loaded">
+        </div>
+        <h1>Rahmad Hidayat Wantania</h1>
+        <p>Back-End Engginer - Alumni MSIB Progate Indonesia</p>
+    </header>
+
+    <section>
+        <ul>
+            <li><a href="" target="_blank">Linkedin</a></li>
+            <li><a href="https://rahmadhw.github.io/website" target="_blank">Website</a></li>
+            <li><a href="" target="_blank">Discord</a></li>
+        </ul>
+    </section>
+
+
+    <script>
+		let splashScreen = document.getElementsByClassName("splash")[0];
+		let startGame = document.getElementsByClassName('start')[0];
+
+		startGame.addEventListener("click", () => {
+			splashScreen.style.top = "120vh";
+			splashScreen.style.transition = ".75s";
+		});
+
+	</script>
+
+
+</body>
+</html>
